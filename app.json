@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "mapaAPI-reactNative",
+    "slug": "mapaAPI-reactNative",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "mapaAPI-reactNative",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDKXmvL2_Ua-ju4yBV-PsD7bnvQ-SV5KIQ"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
